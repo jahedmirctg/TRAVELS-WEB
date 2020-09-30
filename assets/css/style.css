@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+body{
+    margin:0;
+    padding:0;
+}
+/*navbar section start*/
+#navbar-section{
+    height:auto;
+    width:100%;
+    background-color: #0C3646;
+    color:#fff;
+}
+.navbar-toggler{
+background-color: #0C3646!important;
+
+}
+.navbar-toggler-icon{
+    
+}
+.navbar-brand{
+    width:100px;
+    height:50px;
+}
+.navbar-brand img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.navbar{
+    background-color: #0C3646!important;
+    color:#fff!important;
+}
+.navbar a{
+    color:#fff!important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.active a{
+    color:#F79759!important;
+}
+/*navbar section end*/
+/*carousel section start*/
+.carousel-item img{
+    width:100%;
+height:100%;
+} 
+.carousel-item h5{
+    font-size:2.10rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*carousel section end*/
+/*we do section start*/
+.we-do-heding h4{
+text-transform:uppercase;
+font-size:1.50rem;
+font-weight:700;
+color:#056937;
+font-family: 'Autour One', cursive;
+}
+#we-do i{
+color:#F79759;
+font-size:2rem;
+padding:0px 0px 15px 0px;
+}
+/*we do section end*/
+/*our project section start*/
+#project-section{
+    background-color:#F4F4F4;
+    margin-top:5rem;
+    width:100%;
+    height:42rem;
+}
+.our-project-heading h4{
+text-transform: uppercase;
+color:#1BBC9D;
+font-weight: 700;
+margin-top:15px;
+}
+.card img{
+    width:100%!important;
+}
+.card{
+    background:transparent!important;
+    border:none;
+}
+.card h5{
+    color:#1BBC9D;
+}
+/*our project section end*/
+
+/*you get section start*/
+#you-get{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    color:#fff;
+    background-image:linear-gradient(rgba(247, 151, 89, 0.86),rgba(247, 151, 89, 0.86)), url("https://cdn57.androidauthority.net/wp-content/uploads/2018/01/Flappy-Bird-Code-Java-Android-Studio-1200x675.jpg");
+background-size: cover;
+}
+.you-get-heding{
+    text-transform: uppercase;
+}
+#you-get i{
+    display:grid;
+    place-items:center;
+    width:50px;
+    margin:0 auto;
+    height:50px;
+    border-radius:50%;
+    background-color:#fff;
+    color:#F79759;
+}
+/*you get section end*/
+/*customar-section start*/
+#customar-section img{
+width:100%;
+height:190px;
+}
+#customar-section p1{
+    font-weight: 600;
+}
+.customar-heading h4{
+text-transform: uppercase;
+color:#056937;
+font-size:1.600rem;
+font-weight: 700;
+}
+#customar-section h5{
+    color:#056937;
+}
+/*customar-section end*/
+/*footer section start*/
+#footer{
+    margin-top:35px;
+    width:100%;
+    height:auto;
+    background-color: #0C3646;
+}
+#footer p{
+    color: #fff;
+}
+.footer-one ul{
+list-style:none;
+padding:0;
+}
+.footer-one h6{
+    color:#F79759;
+    font-weight:700;
+}
+.footer-one ul li{
+display: inline;
+}
+.footer-one ul li a{
+display:inline-block;
+text-decoration:none;
+
+}
+.social-icon i{
+    display:grid;
+    place-items:center;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color:#F79759;
+    color:#000;
+    margin-left:8px;
+    margin-right:32px;
+    margin-top:20px;
+}
+.footer-nav ul {
+    list-style:none;
+    padding:0;
+}
+.footer-nav a{
+    color: #fff;
+}
+/*footer section end*/
+
+
+
+/*<!--For X-small device-->*/
+
+@media (max-width: 767px) {
+    #project-section{
+        height:auto;
+    }
+
+    .nav-item a{
+        display:block;
+        text-align:center;
+        width:100%;
+    
+    }
+    
+}
+
+
+/*<!--For small device-->*/
+
+@media (min-width:768px) and (max-width: 991px) {
+    #project-section{
+        height:auto;
+    }
+    .nav-item a{
+        display:block;
+        text-align:center;
+        width:100%;
+    
+    }
+    
+}
+
+
+/*<!--For medium device-->*/
+
+@media (min-width:992px) and (max-width: 1199px) {
+    #project-section{
+        height:auto;
+    }
+    .nav-item a{
+        display:block;
+        text-align:center;
+        width:100%;
+    
+    }
+}
+
+
+/*<!--For Large device-->*/
+@media (min-width:1200px) {
+   
+}
